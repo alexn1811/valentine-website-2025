@@ -85,13 +85,13 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Wendy"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
     hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    bears: ['🐧', '🐻']                       // Bear emojis in background
 }
 
 // Questions and Buttons
@@ -100,10 +100,10 @@ questions: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "I don't like you, I love you daddy Alex! ❤️"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
+        text: "How much do you love me baby?",          // Second question
         startText: "This much!",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
@@ -116,16 +116,16 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    extreme: "WOOOOW You love me that much? 🥰🚀💝",  // Shows above 5000%
     high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
     normal: "And beyond! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
-    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+    title: "Yay! I'm the luckiest person in the whole universe!",     // Celebration title
+    message: "Now I'll see you soon baby, can't wait to show you my gifts",          // Celebration message
+    emojis: "🎁💖🐧💝💋❤️💕"                        // Celebration emojis
 }
 
 // Website Colors
@@ -186,7 +186,7 @@ Want to make it extra special with your own romantic song? Follow these steps to
 music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
+    musicUrl: "https://res.cloudinary.com/dhechijxq/video/upload/v1739537956/kqgigphi4qjpndukfriz.mp3", // Paste your URL here
     startText: "🎵 Play Music",
     stopText: "🔇 Stop Music",
     volume: 0.5
